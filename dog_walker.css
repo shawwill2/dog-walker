@@ -115,6 +115,11 @@ a:visited {
         background-size: 17em;
     }
 }
+@media screen and (min-width: 1280px) {
+  .column2 { /*image column sizing - desktop*/
+    margin: 0% 10%;
+    height: 775px;
+  }
 @media screen and (max-width: 750px) { /*set sizing for mobile*/
 	.navbar a { /*adjust dog walker heading to center - sourced from https://csswizardry.com/2011/01/create-a-centred-horizontal-navigation/*/
 	display:inline-block;
